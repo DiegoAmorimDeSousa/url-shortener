@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { TitleComponent } from '../title/title.component'
+import { TitleComponent } from '../title/title.component';
+import { InputComponent } from '../input/input.component';
 
 @Component({
   selector: 'app-card',
   standalone: true,
-  imports: [TitleComponent],
+  imports: [TitleComponent, InputComponent],
   templateUrl: './card.component.html',
   styleUrl: './card.component.css'
 })
